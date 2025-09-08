@@ -209,7 +209,7 @@ jobs:
   # 5) Notifications (always runs)
   ################################################################
   notify:
-    name: Notify Slack & GitHub on Completion
+    name: Notify Slack & GitHub on Completiofn
     runs-on: ubuntu-latest
     needs: [build, sonar, docker_build, deploy]
     if: always()
